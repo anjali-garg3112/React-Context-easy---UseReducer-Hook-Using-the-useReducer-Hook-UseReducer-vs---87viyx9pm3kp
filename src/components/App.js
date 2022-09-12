@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { createContext } from 'react'
 import '../styles/App.css';
 import { UserProfile } from './UserProfile';
 
+const UserContext = createContext();
 
 const App = () => {
 
